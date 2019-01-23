@@ -37,7 +37,7 @@ class Main extends Component {
           <Input
             value={this.state.output}
             placeholder="your encoded or decoded message will appear here"
-            disabled="true"
+            readOnly="true"
           />
           <br />
           {this.state.output && (
